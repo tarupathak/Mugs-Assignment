@@ -100,7 +100,6 @@ const Index = () => {
                   technologies, as well as a UI/UX designer, residing in the
                   Delhi NCR region.
                 </p>
-               
               </div>
             </div>
             <div className="info-list">
@@ -203,20 +202,41 @@ const Index = () => {
               {/* Description */}
               <div className="text">
                 <p>
-                  As a seasoned frontend developer, I bring expertise in
-                  React.js, Next.js, Tailwind CSS, and responsive web design,
-                  cultivated through impactful roles at Neolen Technologies,
-                  Localville, and Srchout Software. My proficiency in crafting
-                  visually appealing and user-friendly interfaces has
-                  consistently elevated the overall user experience across
-                  diverse projects, showcasing my dedication to delivering
-                  high-quality code within specified timelines. On the backend,
-                  I command a robust skill set encompassing MongoDB, Express.js,
-                  and Node.js. This comprehensive stack empowers me to
-                  seamlessly integrate frontend and backend components, ensuring
-                  the development of scalable and resilient applications. My
-                  adeptness in React Native further extends my capabilities to
-                  encompass holistic mobile app development.
+                  Hello! I'm Taru Pathak, currently pursuing a degree in
+                  Electronics and Communication Engineering at Ajay Kumar Garg
+                  Engineering College, where I maintain a solid GPA of 7.5. My
+                  passion lies in the dynamic field of technology, with a
+                  particular focus on full-stack web development. My technical
+                  expertise spans modern technologies including ReactJS, NextJS,
+                  ExpressJS, Node.js, and MongoDB, which I utilize to create
+                  innovative and efficient web solutions. In my portfolio,
+                  notable projects such as a versatile blog website and Shopify,
+                  an e-commerce platform, demonstrate my ability to seamlessly
+                  integrate frontend and backend technologies. Additionally, my
+                  dedication to community engagement is reflected in my
+                  contributions to the Cloud Computing Cell website at my
+                  college, where I strive to align technology with societal
+                  needs. My involvement in impactful hackathons underscores my
+                  belief in the transformative power of technology for social
+                  good. Projects like Funds4Good, which facilitates global
+                  financial assistance, and Deafolio, which provides career
+                  opportunities for the hearing impaired, exemplify this
+                  commitment. My professional journey has been enriched through
+                  a series of internships that have honed my skills and
+                  versatility. Starting as a UI/UX designer and WordPress
+                  developer at SRL Life Company, I progressed to roles
+                  emphasizing React development at Localville and frontend
+                  development at Srchout Software and Neolen Technologies. These
+                  experiences have deepened my understanding of user-centric
+                  design principles and equipped me with the agility to adapt to
+                  various tech stacks and project requirements. As I stand on
+                  the cusp of my professional career, I am driven by an
+                  insatiable appetite for learning and growth. I seek an
+                  environment where I can showcase my existing skills while
+                  continuously expanding my knowledge. My ultimate goal is to
+                  become an indispensable asset to a company, contributing to
+                  its vision and objectives while perpetually pushing the
+                  boundaries of technological innovation.
                 </p>
               </div>
               {/* Skills */}
@@ -553,7 +573,7 @@ const Index = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/10INXt1xUBZaxJXS4oKqKm4zKArJLYIkW/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gTCh3aEjjBMjMM1MS7vtOe_I1vdaumjj/view?usp=sharing"
                 className="btn"
               >
                 <span>Download CV</span>
@@ -587,18 +607,17 @@ const Index = () => {
           <ProjectIsotop />
         </div>
       </section>
-      
+
       <section className="section no-padding-top section-parallax section-parallax-4">
         <div className="container">
-        <div className="m-titles">
+          <div className="m-titles">
             <h2 className="m-title">My Certificates</h2>
           </div>
           {/* Testimonials */}
           <TestimonialSlider />
         </div>
       </section>
-    
-      
+
       <ContactForm />
     </Layout>
   );

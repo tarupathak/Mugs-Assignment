@@ -2,17 +2,14 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Header = () => {
-
-  const openMenu = event => {
+  const openMenu = (event) => {
     event.preventDefault();
     const menu = document.querySelector(".menu-btn");
     if (menu.classList.contains("active")) {
       menu.classList.remove("active");
       menu.classList.add("no-touch");
       document.body.classList.remove("no-scroll");
-      document
-        .querySelector(".menu-full-overlay")
-        .classList.remove("is-open");
+      document.querySelector(".menu-full-overlay").classList.remove("is-open");
       document
         .querySelector(".menu-full-overlay")
         .classList.remove("has-scroll");
@@ -148,11 +145,7 @@ const Header = () => {
               </span>
             </a>
             {/* menu btn */}
-            <a
-            href="#"
-            className="menu-btn"
-            onClick={() => openMenu(event)}
-            >
+            <a href="#" className="menu-btn" onClick={() => openMenu(event)}>
               <span />
             </a>
           </div>
@@ -168,146 +161,30 @@ const Header = () => {
                 <div className="menu-full">
                   <ul className="menu-full">
                     <li className="menu-item">
-                      <a
-                        href="/#about-section"
-                        onClick={() => linkClick()}
-                      >
+                      <a href="/#about-section" onClick={() => linkClick()}>
                         About
                       </a>
                     </li>
                     <li className="menu-item">
-                      <a
-                        href="/#resume-section"
-                        onClick={() => linkClick()}
-                      >
+                      <a href="/#resume-section" onClick={() => linkClick()}>
                         Resume
                       </a>
                     </li>
                     <li className="menu-item">
-                      <a
-                        href="/#works-section"
-                        onClick={() => linkClick()}
-                      >
+                      <a href="/#works-section" onClick={() => linkClick()}>
                         Works
                       </a>
                     </li>
                     <li className="menu-item">
-                      <a
-                        href="/#pricing-section"
-                        onClick={() => linkClick()}
-                      >
-                        Pricing
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
-                        href="/#blog-section"
-                        onClick={() => linkClick()}
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a
-                        href="/#contact-section"
-                        onClick={() => linkClick()}
-                      >
+                      <a href="/#contact-section" onClick={() => linkClick()}>
                         Contact
                       </a>
-                    </li>
-                    <li className="menu-item menu-item-has-children has-children">
-                      <a
-                        className="position-relative"
-                        onClick={() => setPageToggle(!pageToggle)}
-                      >
-                        <span>
-                          Pages
-                        </span>
-                        <i className="fas fa-chevron-down pageArrow"></i>
-                      </a>
-                      <ul
-                        className="sub-menu"
-                        style={{
-                          marginTop: "1rem",
-                          display: `${pageToggle ? "block" : "none"}`,
-                        }}
-                      >
-                        <li className="menu-item">
-                          <Link href="/works">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Works (grid)
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/works-list">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Works (list)
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/work-single">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Work Single Page
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/blog">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Blog Posts
-                            </a>
-                          </Link>
-                        </li>
-                        <li className="menu-item">
-                          <Link href="/blog-single">
-                            <a
-                              onClick={() => linkClick()}
-                            >
-                              Blog Single Post
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        {/* social */}
-        <div className="menu-social-links">
-          <a
-            href="http://dribbble.com"
-            target="blank"
-            title="dribbble"
-          >
-            <i className="fab fa-dribbble" />
-          </a>
-          <a
-            href="http://twitter.com"
-            target="blank"
-            title="twitter"
-          >
-            <i className="fab fa-twitter" />
-          </a>
-          <a
-            href="http://behance.com"
-            target="blank"
-            title="behance"
-          >
-            <i className="fab fa-behance" />
-          </a>
         </div>
       </div>
     </header>

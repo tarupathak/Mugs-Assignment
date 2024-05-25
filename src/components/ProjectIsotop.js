@@ -37,70 +37,21 @@ const ProjectIsotop = () => {
   return (
     <Fragment>
       <div className="works-box">
-        <div
-          className="filter-links"
-        >
-          <a
-            className={`c-pointer ${activeBtn("*")}`}
-            onClick={handleFilterKeyChange("*")}
-            data-href=".works-col"
-          >
-            All
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-ui-ux-design")}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
-          >
-            UI UX Design
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
-            data-href=".sorting-photo"
-          >
-            Frontend Web Development
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-development")}`}
-            onClick={handleFilterKeyChange("sorting-development")}
-            data-href=".sorting-development"
-          >
-            Backend Development
-          </a>
-          <a
-            className={`c-pointer ${activeBtn("sorting-branding")}`}
-            onClick={handleFilterKeyChange("sorting-branding")}
-            data-href=".sorting-branding"
-          >
-            Application Development
-          </a>
-        </div>
         <div className="works-items works-list-items row">
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item">
               <Link href="/work-single">
                 <a>
-                  <span
-                    className="image"
-                  >
+                  <span className="image">
                     <span className="img">
                       <img src="assets/images/work4.jpg" alt="Zorro" />
                       <span className="overlay" />
                     </span>
                   </span>
                   <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Zorro
-                    </span>
-                    <span
-                      className="category"
-                    >
-                      Branding
-                      <br />
-                      Photography
+                    <span className="name">Funds4Good</span>
+                    <span className="category">
+                     Next.js, Tailwind CSS
                     </span>
                   </span>
                 </a>
@@ -111,23 +62,15 @@ const ProjectIsotop = () => {
             <div className="works-item">
               <Link href="/work-single">
                 <a>
-                  <span
-                    className="image"
-                  >
+                  <span className="image">
                     <span className="img">
                       <img src="assets/images/work2.jpg" alt="Gooir" />
                       <span className="overlay" />
                     </span>
                   </span>
                   <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Gooir
-                    </span>
-                    <span
-                      className="category"
-                    >
+                    <span className="name">Gooir</span>
+                    <span className="category">
                       Branding
                       <br />
                       UI UX Design
@@ -141,23 +84,15 @@ const ProjectIsotop = () => {
             <div className="works-item">
               <Link href="/work-single">
                 <a>
-                  <span
-                    className="image"
-                  >
+                  <span className="image">
                     <span className="img">
                       <img src="assets/images/work7.jpg" alt="Explore" />
                       <span className="overlay" />
                     </span>
                   </span>
                   <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Explore
-                    </span>
-                    <span
-                      className="category"
-                    >
+                    <span className="name">Explore</span>
+                    <span className="category">
                       Development
                       <br />
                       UI UX Design
@@ -171,23 +106,15 @@ const ProjectIsotop = () => {
             <div className="works-item">
               <Link href="/work-single">
                 <a>
-                  <span
-                    className="image"
-                  >
+                  <span className="image">
                     <span className="img">
                       <img src="assets/images/work1.jpg" alt="Mozar" />
                       <span className="overlay" />
                     </span>
                   </span>
                   <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Mozar
-                    </span>
-                    <span
-                      className="category"
-                    >
+                    <span className="name">Mozar</span>
+                    <span className="category">
                       Branding
                       <br />
                       Photography
@@ -201,23 +128,15 @@ const ProjectIsotop = () => {
             <div className="works-item">
               <Link href="/work-single">
                 <a>
-                  <span
-                    className="image"
-                  >
+                  <span className="image">
                     <span className="img">
                       <img src="assets/images/single8.jpg" alt="Stay Fit" />
                       <span className="overlay" />
                     </span>
                   </span>
                   <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Stay Fit
-                    </span>
-                    <span
-                      className="category"
-                    >
+                    <span className="name">Stay Fit</span>
+                    <span className="category">
                       Development
                       <br />
                       UI UX Design
@@ -231,23 +150,15 @@ const ProjectIsotop = () => {
             <div className="works-item">
               <Link href="/work-single">
                 <a>
-                  <span
-                    className="image"
-                  >
+                  <span className="image">
                     <span className="img">
                       <img src="assets/images/single6.jpg" alt="Kana" />
                       <span className="overlay" />
                     </span>
                   </span>
                   <span className="desc">
-                    <span
-                      className="name"
-                    >
-                      Kana
-                    </span>
-                    <span
-                      className="category"
-                    >
+                    <span className="name">Kana</span>
+                    <span className="category">
                       Development
                       <br />
                       Photography
