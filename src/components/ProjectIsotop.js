@@ -1,5 +1,12 @@
 import Isotope from "isotope-layout";
 import Link from "next/link";
+import funds from "../../public/assets/Funds.png";
+import blog from "../../public/assets/BlogSpeher.png";
+import ccc from "../../public/assets/CCC.png";
+import deafolio from "../../public/assets/Deafolio.png";
+import shopify from "../../public/assets/Shopify.png";
+import versatile from "../../public/assets/versatile.jpg";
+import Image from "next/image";
 import { Fragment, useEffect, useRef, useState } from "react";
 const ProjectIsotop = () => {
   // Isotope
@@ -43,7 +50,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <img src="assets/images/work4.jpg" alt="Zorro" />
+                    <Image src={funds} alt="Zorro" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -72,7 +79,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <img src="assets/images/work2.jpg" alt="Gooir" />
+                    <Image src={blog} alt="Zorro" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -97,12 +104,13 @@ const ProjectIsotop = () => {
               </a>
             </div>
           </div>
+
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
             <div className="works-item">
               <a>
                 <span className="image">
                   <span className="img">
-                    <img src="assets/images/work7.jpg" alt="Explore" />
+                    <Image src={shopify} alt="Zorro" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -136,7 +144,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <img src="assets/images/work1.jpg" alt="Mozar" />
+                    <Image src={ccc} alt="Zorro" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -159,12 +167,41 @@ const ProjectIsotop = () => {
               </a>
             </div>
           </div>
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+            <div className="works-item">
+              <a>
+                <span className="image">
+                  <span className="img">
+                    <Image src={deafolio} alt="Zorro" />
+                    <span className="overlay" />
+                  </span>
+                </span>
+                <span className="desc">
+                  <span className="name">Deafolio</span>
+                  <span className="category">
+                    Created the frontend of a website where deaf individuals can
+                    find jobs and explore various career opportunities. Built
+                    using ReactJS and CSS, and integrated the backend using
+                    Axios for seamless data communication. The site ensures
+                    accessibility and a user-friendly experience for the deaf
+                    community.
+                  </span>
+
+                  <span>
+                    <a href="https://github.com/tarupathak/Deafolio">
+                      Github Link
+                    </a>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
           <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
             <div className="works-item">
               <a>
                 <span className="image">
                   <span className="img">
-                    <img src="assets/images/single8.jpg" alt="Stay Fit" />
+                    <Image src={versatile} alt="Zorro" />
                     <span className="overlay" />
                   </span>
                 </span>
