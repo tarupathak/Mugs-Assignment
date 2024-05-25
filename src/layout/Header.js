@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import logo from '../../public/assets/logo.png'
 
 const Header = () => {
   const openMenu = (event) => {
@@ -103,7 +105,7 @@ const Header = () => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src="assets/images/ober_logo.png" alt="" />
+                  <Image src={logo} alt="logo" />
                 </a>
               </Link>
             </div>

@@ -50,7 +50,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <Image src={funds} alt="Zorro" />
+                    <Image src={funds} alt="funds" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -79,7 +79,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <Image src={blog} alt="Zorro" />
+                    <Image src={blog} alt="blog" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -110,7 +110,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <Image src={shopify} alt="Zorro" />
+                    <Image src={shopify} alt="shopify" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -144,7 +144,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <Image src={ccc} alt="Zorro" />
+                    <Image src={ccc} alt="ccc" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -172,7 +172,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <Image src={deafolio} alt="Zorro" />
+                    <Image src={deafolio} alt="deafolio" />
                     <span className="overlay" />
                   </span>
                 </span>
@@ -201,7 +201,7 @@ const ProjectIsotop = () => {
               <a>
                 <span className="image">
                   <span className="img">
-                    <Image src={versatile} alt="Zorro" />
+                    <Image src={versatile} alt="versatile" />
                     <span className="overlay" />
                   </span>
                 </span>
